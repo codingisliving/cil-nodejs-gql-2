@@ -1,0 +1,7 @@
+module.exports = `
+  type Query {
+    helloworld: HelloWorld
+    banks: [Bank!]
+    bank(id: ID!): Bank
+  }
+`;
