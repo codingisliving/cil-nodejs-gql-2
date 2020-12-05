@@ -5,5 +5,7 @@ module.exports = `
     bank(id: ID!): Bank
     users: [User!]
     user(id: ID!): User
+    transactions: [Transaction!]
+    transaction(id: ID!): Transaction
   }
 `;
